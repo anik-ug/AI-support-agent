@@ -1,0 +1,10 @@
+{
+  "brand_col": null,
+  "conversation_id_col": null,
+  "inbound_col": "inbound",
+  "reply_to_col": "response_tweet_id",
+  "text_col": "text",
+  "timestamp_col": "created_at",
+  "tweet_id_col": "tweet_id",
+  "user_col": "author_id"
+}

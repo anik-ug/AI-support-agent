@@ -1,0 +1,13 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+1,brand_a,false,2024-01-01T10:00:00Z,Hi there thanks for reaching out,2,
+2,customer_1,true,2024-01-01T09:58:00Z,I cannot log in to my account,1,
+3,brand_a,false,2024-01-01T11:00:00Z,Please send us a DM with your order number,4,
+4,customer_2,true,2024-01-01T10:59:00Z,Where is my refund? it has been a week,3,
+5,brand_a,false,2024-01-02T09:00:00Z,We have checked and your order should arrive tomorrow,6,
+6,customer_3,true,2024-01-02T08:57:00Z,My package says delivered but I do not have it,5,
+7,brand_b,false,2024-01-03T12:00:00Z,"We are sorry, please DM your email address",8,
+8,customer_4,true,2024-01-03T11:58:00Z,Why was I charged twice?,7,
+9,brand_b,false,2024-01-04T15:00:00Z,Please restart the app and try again,10,
+10,customer_5,true,2024-01-04T14:55:00Z,The app crashes when I open it,9,
+11,brand_b,false,2024-01-05T18:00:00Z,"We have escalated this to the specialist team",12,
+12,customer_6,true,2024-01-05T17:55:00Z,"This is the third time this week",11,

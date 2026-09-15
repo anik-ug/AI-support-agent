@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.4
+sentence-transformers>=2.6
+# Optional on compatible environments: faiss-cpu>=1.8 (enable with USE_FAISS=1)
+pytest>=8.0
+python-dotenv>=1.0
+scipy>=1.11
+openai>=1.40

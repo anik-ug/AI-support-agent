@@ -1,0 +1,89 @@
+{
+  "brand_id": "AmazonHelp",
+  "intents": [
+    {
+      "description": "Problems signing in, accessing, or managing an account.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Problems signing in, accessing, or managing an account."
+      ],
+      "name": "account_access"
+    },
+    {
+      "description": "Questions or problems involving charges, payments, or invoices.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Questions or problems involving charges, payments, or invoices."
+      ],
+      "name": "billing_payment"
+    },
+    {
+      "description": "Requests or questions about refunds, returns, or money being returned.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Requests or questions about refunds, returns, or money being returned."
+      ],
+      "name": "refund_return"
+    },
+    {
+      "description": "Questions or problems involving orders, shipping, delivery, or missing packages.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Questions or problems involving orders, shipping, delivery, or missing packages."
+      ],
+      "name": "order_delivery"
+    },
+    {
+      "description": "Questions or problems involving subscriptions, plans, renewals, or cancellation.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Questions or problems involving subscriptions, plans, renewals, or cancellation."
+      ],
+      "name": "subscription_plan"
+    },
+    {
+      "description": "Product, website, app, login-flow, or technical malfunction reports.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Product, website, app, login-flow, or technical malfunction reports."
+      ],
+      "name": "technical_issue"
+    },
+    {
+      "description": "General product or support questions that do not fit another intent.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "General product or support questions that do not fit another intent."
+      ],
+      "name": "general_support"
+    },
+    {
+      "description": "Repeated contact, unresolved issues, complaints, or requests for escalation.",
+      "examples": [],
+      "exclusion_criteria": [],
+      "inclusion_criteria": [
+        "Repeated contact, unresolved issues, complaints, or requests for escalation."
+      ],
+      "name": "escalation_followup"
+    }
+  ],
+  "schema": {
+    "brand_col": null,
+    "conversation_id_col": null,
+    "inbound_col": "inbound",
+    "reply_to_col": "response_tweet_id",
+    "text_col": "text",
+    "timestamp_col": "created_at",
+    "tweet_id_col": "tweet_id",
+    "user_col": "author_id"
+  },
+  "source": "deterministic fallback; human review required",
+  "status": "active"
+}

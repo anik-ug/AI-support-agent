@@ -1,0 +1,14 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+data/raw/*.csv
+data/raw/**/*.csv
+data/raw/*.parquet
+data/raw/**/*.parquet
+data/processed/*.csv
+data/processed/*.npy
+data/processed/retriever/
+evaluation/results/
